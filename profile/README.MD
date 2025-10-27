@@ -65,11 +65,24 @@ By installing and using Watchiko, you acknowledge and agree to the following:
 Watchiko is built with a strong emphasis on:
 
 - **Transparency**: Users know exactly what is being tracked
-- **Modularity**: Event tracking is plugin-based and user-configurable
+- **Modularity**: Event tracking is defined through composable event hooks and optional native implementations
 - **Security**: Core features like cloud sync and reporting are non-optional and tightly controlled
 - **Privacy**: No invasive features, no hidden surveillance
 - **Forensic Value**: Every event is timestamped, classified, and stored for later review
 - **Live-ness**: Alerts are generated **as soon as** events are detected — not hours later
+
+---
+
+## 📂 Event Hook Architecture
+
+Watchiko supports a hybrid event hook system:
+
+- Each **event hook module** consists of:
+  - `hook.ts`: High-level orchestration logic that defines what to track and how to respond
+  - `hook.go`: Optional native implementation for system-level access (e.g., USB detection)
+- These modules are stored in the `event-hooks/` folder
+- Users can author their own hooks using the provided template
+- Hooks are dynamically loaded and can be enabled/disabled independently
 
 ---
 
@@ -78,21 +91,9 @@ Watchiko is built with a strong emphasis on:
 To begin using Watchiko:
 
 1. Install the software on your personal machine
-2. Enable the plugins for the events you want to track (e.g., USB activity)
+2. Enable the event hooks for the activities you want to track (e.g., USB activity)
 3. View logs and reports via the client interface
 4. Sync data securely to your cloud dashboard (optional)
-
----
-
-## 📂 Plugin Architecture
-
-Watchiko supports a hybrid plugin system:
-
-- Each plugin contains:
-  - `plugin.ts`: High-level orchestration logic
-  - `plugin.go`: Native system hook implementation (optional)
-- Users can author their own plugins using the provided template
-- Plugins are loaded dynamically and can be enabled/disabled independently
 
 ---
 

@@ -78,7 +78,7 @@ Watchiko is built with a strong emphasis on:
 Watchiko supports a hybrid event hook system:
 
 - Each **event hook module** consists of:
-  - `hook.ts`: High-level orchestration logic that defines what to track and how to respond
+  - `hook.ts`: High-level logic that defines what to track and how to respond
   - `hook.go`: Optional native implementation for system-level access (e.g., USB detection)
 - These modules are stored in the `event-hooks/` folder
 - Users can author their own hooks using the provided template

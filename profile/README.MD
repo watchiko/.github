@@ -1,6 +1,21 @@
 # Watchiko
 
-**Watchiko** is an activity monitoring and reporting system designed for personally-owned computer systems. It helps users gain insight into their own system usage patterns, device events, and local activity — all while respecting privacy and ethical boundaries.
+**Watchiko** is a real-time activity monitoring and reporting system designed for personally-owned computer systems. It helps users gain insight into their own system usage patterns, device events, and local activity — all while respecting privacy and ethical boundaries.
+
+---
+
+## 🎯 Purpose
+
+Watchiko is built for **personal digital forensics** with a **live-first mindset**. It doesn’t just log what happened — it alerts you **as soon as something happens**.
+
+Whether it’s a USB device being plugged in, a suspicious process starting, or a file being transferred, Watchiko is designed to:
+
+- **Detect** events immediately
+- **Classify** them based on severity
+- **Report** them to you or your cloud dashboard
+- **Store** them for later analysis
+
+It’s like a personal black box for your system — but one that speaks up the moment something matters.
 
 ---
 
@@ -53,6 +68,8 @@ Watchiko is built with a strong emphasis on:
 - **Modularity**: Event tracking is plugin-based and user-configurable
 - **Security**: Core features like cloud sync and reporting are non-optional and tightly controlled
 - **Privacy**: No invasive features, no hidden surveillance
+- **Forensic Value**: Every event is timestamped, classified, and stored for later review
+- **Live-ness**: Alerts are generated **as soon as** events are detected — not hours later
 
 ---
 
@@ -84,4 +101,3 @@ Watchiko supports a hybrid plugin system:
 Watchiko is an open project. Contributions, feedback, and responsible usage are welcome.
 
 ---
-

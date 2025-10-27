@@ -4,7 +4,8 @@ Watchiko is an activity monitoring and reporting system for personally-owned com
 
 ### ___WARNING___
 ___Usage of this software is liable to legal expectations. 
-Watchiko is not meant to be a spyware or be placed in any such software category to be used to monitor other users and their activities on the computer without their knowledge. 
+Watchiko is not meant to be a spyware or be placed or categorized into any such software category. 
+Watchiko is not at all meant to be used to monitor other users and their activities on the computer without their knowledge. 
 Watchiko authors do not promote the usage of this software for any such purposes. 
 Watchiko do not support recording any webcam feeds / recording audio sources / taking (random) screenshots / streaming live screencast, as these are not the purpose of this software.
 This software is to be only used in the system owned by the user who installed this software.

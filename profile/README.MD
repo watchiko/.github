@@ -30,6 +30,31 @@ Watchiko is built as a modular four-tier system:
 
 ---
 
+## 🧠 Philosophy
+
+Watchiko is built with a strong emphasis on:
+
+- **Transparency**: Users know exactly what is being tracked
+- **Modularity**: Event tracking is defined through composable event hooks and optional native implementations
+- **Security**: Core features like cloud sync and reporting are non-optional and tightly controlled
+- **Privacy**: No invasive features, no hidden surveillance
+- **Forensic Value**: Every event is timestamped, classified, and stored for later review
+- **Live-ness**: Alerts are generated **as soon as** events are detected — not hours later
+
+---
+
+## 📂 Event Hook Architecture
+
+An Event Hook is a custom module used to detect specific type of event and provide to Daemon.
+- Each **event hook module** consists of:
+  - `./<hookName>/src/main.rs`: Logic of the hook written in Rust
+  - `./<hookName>/Cargo.toml`: Dependencies required by the hook
+- These modules are stored in the `hooks/internal` folder
+- The final compiled hook will be generated in `./dist/internal` folder as `<hookName>/<hookName>.exe` (in case of Windows binary)
+- Users can author their own hooks using the provided template and placed in the `hooks/custom` folder
+
+---
+
 ## ⚠️ Ethical Usage Warning
 
 Watchiko is **not** spyware. It is **not** intended for surveillance or unauthorized monitoring of other users. The software must only be installed and used on systems **personally owned and operated** by the user.
@@ -60,30 +85,6 @@ By installing and using Watchiko, you acknowledge and agree to the following:
 
 ---
 
-## 🧠 Philosophy
-
-Watchiko is built with a strong emphasis on:
-
-- **Transparency**: Users know exactly what is being tracked
-- **Modularity**: Event tracking is defined through composable event hooks and optional native implementations
-- **Security**: Core features like cloud sync and reporting are non-optional and tightly controlled
-- **Privacy**: No invasive features, no hidden surveillance
-- **Forensic Value**: Every event is timestamped, classified, and stored for later review
-- **Live-ness**: Alerts are generated **as soon as** events are detected — not hours later
-
----
-
-## 📂 Event Hook Architecture
-
-An Event Hook is a custom module used to detect specific type of event and provide to Daemon.
-- Each **event hook module** consists of:
-  - `./<hookName>/src/main.rs`: Logic of the hook written in Rust
-  - `./<hookName>/Cargo.toml`: Dependencies required by the hook
-- These modules are stored in the `hooks/internal` folder
-- The final compiled hook will be generated in `./dist/internal` folder as `<hookName>/<hookName>.exe` (in case of Windows binary)
-- Users can author their own hooks using the provided template and placed in the `hooks/custom` folder
-
----
 <!--
 ## 🚀 Getting Started
 

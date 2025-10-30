@@ -47,7 +47,7 @@ An Event Hook is a custom module used to detect specific type of event and provi
 
 ## ⚠️ Ethical Usage Warning
 
-Watchiko is **not** spyware. It is **not** intended for surveillance or unauthorized monitoring of other users. The software must only be installed and used on systems **personally owned and operated** by the user.
+Watchiko is **not** spyware. It is **not** intended for surveillance or unauthorized monitoring of other users. 
 
 ### ❌ Watchiko does **not** support:
 - Recording webcam feeds
@@ -55,7 +55,8 @@ Watchiko is **not** spyware. It is **not** intended for surveillance or unauthor
 - Taking random screenshots
 - Streaming live screencasts
 
-These features are **explicitly excluded** from Watchiko’s design and purpose.
+These features are not intented in the design and purpose itself.
+The software must only be installed and used on systems **personally owned and operated** by the user.
 
 ### ✅ Watchiko is intended **only** for:
 - Monitoring your own device activity

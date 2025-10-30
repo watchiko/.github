@@ -21,8 +21,8 @@ Watchiko is built as a modular four-tier system:
 
 - **Daemon**: A background service that monitors system-level events, passes to Watchiko Evstore Pub
 - **Evstore Pub**: Local storage for events, and publishes suspicious events to Watchiko Evstore Hub
-- **Evstore Hub**: Cloud storage for events data persistence, acts as the server to which UI clients can connect
-- **Watchiko UI**: User Interface for browsing through events reported. Supports push notifications (if enabled)
+- **Evstore Hub**: Cloud storage for events data persistence, acts as the server to which other clients can connect
+- **Eyevy**: Client app and webpage for browsing through events reported. Supports push notifications (if enabled)
 
 ## 🧠 Philosophy
 

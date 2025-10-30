@@ -57,14 +57,14 @@ Watchiko is **not** spyware. It is **not** intended for surveillance or unauthor
 
 These features are not intented in the design and purpose of Watchiko.
 
-The software must only be installed and used on systems **personally owned and operated** by the user.
-
 ### ✅ Watchiko is intended **only** for:
 - Monitoring your own device activity
 - Tracking system events (e.g., USB insert/remove)
 - Logging and analyzing usage patterns on your personal machine
 
 ## 📜 Legal Disclaimer
+
+The software must only be installed and used on systems **personally owned and operated** by the user.
 
 By installing and using Watchiko, you acknowledge and agree to the following:
 

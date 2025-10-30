@@ -19,10 +19,10 @@ It’s like a personal black box for your system — but one that speaks up the 
 
 Watchiko is built as a modular four-tier system:
 
-- **Daemon**: A background service that monitors system-level events
-- **Repository**: Local storage for event logs and activity data
-- **Client**: A user-facing interface or API for viewing and interacting with logs
-- **Communication Channels**: Mechanisms for syncing data and reporting activity to cloud services
+- **Daemon**: A background service that monitors system-level events, passes to Watchiko Evstore Pub
+- **Evstore Pub**: Local storage for events, and publishes suspicious events to Watchiko Evstore Hub
+- **Evstore Hub**: Cloud storage for events data persistence, acts as the server to which UI clients can connect
+- **Watchiko UI**: User Interface for browsing through events reported. Supports push notifications (if enabled)
 
 ## 🧠 Philosophy
 

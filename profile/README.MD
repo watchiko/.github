@@ -78,11 +78,11 @@ Watchiko is built with a strong emphasis on:
 Watchiko supports a hybrid event hook system:
 
 - Each **event hook module** consists of:
-  - `hook.ts`: High-level logic that defines what to track and how to respond
-  - `hook.go`: Optional native implementation for system-level access (e.g., USB detection)
-- These modules are stored in the `event-hooks/` folder
-- Users can author their own hooks using the provided template
-- Hooks are dynamically loaded and can be enabled/disabled independently
+  - `./<hookName>/src/<hookName>.rs`: Hook logic written in Rust
+    - The final compiled hook will be `<hookName>/<hookName>.exe` (in case of Windows binary)
+  - `./<hookName>/Cargo.toml`: Rust cargo dependencies
+- These modules are stored in the `hooks/internal` folder
+- Users can author their own hooks using the provided template and placed in the `hooks/custom` folder
 
 ---
 

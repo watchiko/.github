@@ -95,9 +95,9 @@ To begin using Watchiko:
 4. Sync data securely to your cloud dashboard (optional)
 
 ---
--->
 ## 📬 Contact & Contributions
 
 Watchiko is an open project. Contributions, feedback, and responsible usage are welcome.
 
 ---
+-->

@@ -2,8 +2,6 @@
 
 **Watchiko** is a real-time activity monitoring and reporting system designed for personally-owned computer systems. It helps users gain insight into their own system usage patterns, device events, and local activity — all while respecting privacy and ethical boundaries.
 
----
-
 ## 🎯 Purpose
 
 Watchiko is built for **personal digital forensics** with a **live-first mindset**. It doesn’t just log what happened — it alerts you **as soon as something happens**.
@@ -17,8 +15,6 @@ Whether it’s a USB device being plugged in, a suspicious process starting, or 
 
 It’s like a personal black box for your system — but one that speaks up the moment something matters.
 
----
-
 ## 🧩 System Overview
 
 Watchiko is built as a modular four-tier system:
@@ -27,8 +23,6 @@ Watchiko is built as a modular four-tier system:
 - **Repository**: Local storage for event logs and activity data
 - **Client**: A user-facing interface or API for viewing and interacting with logs
 - **Communication Channels**: Mechanisms for syncing data and reporting activity to cloud services
-
----
 
 ## 🧠 Philosophy
 
@@ -41,8 +35,6 @@ Watchiko is built with a strong emphasis on:
 - **Forensic Value**: Every event is timestamped, classified, and stored for later review
 - **Live-ness**: Alerts are generated **as soon as** events are detected — not hours later
 
----
-
 ## 📂 Event Hook Architecture
 
 An Event Hook is a custom module used to detect specific type of event and provide to Daemon.
@@ -52,8 +44,6 @@ An Event Hook is a custom module used to detect specific type of event and provi
 - These modules are stored in the `hooks/internal` folder
 - The final compiled hook will be generated in `./dist/internal` folder as `<hookName>/<hookName>.exe` (in case of Windows binary)
 - Users can author their own hooks using the provided template and placed in the `hooks/custom` folder
-
----
 
 ## ⚠️ Ethical Usage Warning
 
@@ -72,8 +62,6 @@ These features are **explicitly excluded** from Watchiko’s design and purpose.
 - Tracking system events (e.g., USB insert/remove)
 - Logging and analyzing usage patterns on your personal machine
 
----
-
 ## 📜 Legal Disclaimer
 
 By installing and using Watchiko, you acknowledge and agree to the following:
@@ -82,8 +70,6 @@ By installing and using Watchiko, you acknowledge and agree to the following:
 - You will **not** use Watchiko to monitor other individuals without their knowledge or consent.
 - You understand that misuse of this software may violate local laws and regulations.
 - You accept full responsibility for how Watchiko is used on your system.
-
----
 
 <!--
 ## 🚀 Getting Started
@@ -95,10 +81,8 @@ To begin using Watchiko:
 3. View logs and reports via the client interface
 4. Sync data securely to your cloud dashboard (optional)
 
----
 ## 📬 Contact & Contributions
 
 Watchiko is an open project. Contributions, feedback, and responsible usage are welcome.
 
----
 -->

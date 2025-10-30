@@ -75,10 +75,12 @@ Watchiko is built with a strong emphasis on:
 
 ## 📂 Event Hook Architecture
 
+An Event Hook is a custom module used to detect specific type of event and emit back to Daemon.
+
 Watchiko supports event hook system:
 
 - Each **event hook module** consists of:
-  - `./<hookName>/src/main.rs`: Hook logic written in Rust
+  - `./<hookName>/src/main.rs`: Logic of the hook written in Rust
   - `./<hookName>/Cargo.toml`: Dependencies required by the hook
 - These modules are stored in the `hooks/internal` folder
 - The final compiled hook will be generated in `./dist/internal` folder as `<hookName>/<hookName>.exe` (in case of Windows binary)

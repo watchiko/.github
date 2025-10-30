@@ -75,7 +75,7 @@ Watchiko is built with a strong emphasis on:
 
 ## 📂 Event Hook Architecture
 
-Watchiko supports a hybrid event hook system:
+Watchiko supports event hook system:
 
 - Each **event hook module** consists of:
   - `./<hookName>/src/<hookName>.rs`: Hook logic written in Rust

@@ -56,6 +56,7 @@ Watchiko is **not** spyware. It is **not** intended for surveillance or unauthor
 - Streaming live screencasts
 
 These features are not intented in the design and purpose itself.
+
 The software must only be installed and used on systems **personally owned and operated** by the user.
 
 ### ✅ Watchiko is intended **only** for:

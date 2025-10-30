@@ -85,7 +85,7 @@ Watchiko supports a hybrid event hook system:
 - Users can author their own hooks using the provided template and placed in the `hooks/custom` folder
 
 ---
-
+<!--
 ## 🚀 Getting Started
 
 To begin using Watchiko:
@@ -96,7 +96,7 @@ To begin using Watchiko:
 4. Sync data securely to your cloud dashboard (optional)
 
 ---
-
+-->
 ## 📬 Contact & Contributions
 
 Watchiko is an open project. Contributions, feedback, and responsible usage are welcome.
